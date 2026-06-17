@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#weather-display {
+    display: none;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
